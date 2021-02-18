@@ -11,9 +11,10 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("image/hero-bg.jpg");
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 #header .container {
   width: 100%;
