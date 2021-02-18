@@ -1,0 +1,108 @@
+* {
+  list-style: none;
+}
+
+#header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.726),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("image/hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header .container {
+  width: 100%;
+  min-height: 100vh;
+}
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.brands img {
+  width: 100px;
+}
+.feature-logo i {
+  font-size: 50px;
+}
+.services-logo {
+  font-size: 30px;
+}
+.cta {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("image/cta-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.gallery-block {
+  columns: 3;
+}
+.gallery-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.count-box {
+  flex-direction: row;
+}
+.count-box > div {
+  width: 50%;
+}
+.icon {
+  font-size: 40px;
+  padding: 0 20px;
+}
+.slider-body {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("image/testimonials-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.slider-body img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 30px 0;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+}
+.footer-links {
+  background-color: #151515;
+}
+.footer-copy {
+  background-color: #000000;
+}
+@media (max-width: 768px) {
+  .gallery-block {
+    columns: 2;
+  }
+
+  .count-box {
+    flex-direction: column;
+  }
+  .count-box > div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery-block {
+    columns: 1;
+  }
+}

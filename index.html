@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap website</title>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Raw CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid" id="header">
+        <div class="container d-flex flex-column justify-content-around align-items-center">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100 nav-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Site</a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning" aria-current="page" href="#header">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="text-warning border-warning btn px-4 ms-2"><a class="text-warning"
+                            href="#get-started">Get
+                            started</a></button>
+                </div>
+            </nav>
+            <div class="hero-text text-white p-5 fs-1 fw-bold">
+                <h1>Powerful Digital
+                    <br>
+                    Solutions With Gp.
+                </h1>
+            </div>
+            <div class="row w-100 text-white">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div
+                        class="p-3 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary my-2">
+                        <i class="fas fa-stream text-warning fs-1 my-3"></i>
+                        <h5 class="my-3">Hello</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div
+                        class="p-3 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary my-2">
+                        <i class="fas fa-hand-holding-water text-warning fs-1 my-3"></i>
+                        <h5 class="my-3">Trust</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div
+                        class="p-3 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary my-2">
+                        <i class="fas fa-leaf text-warning fs-1 my-3"></i>
+                        <h5 class="my-3">Execellent</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div
+                        class="p-3 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary my-2">
+                        <i class="fab fa-canadian-maple-leaf text-warning fs-1 my-3"></i>
+                        <h5 class="my-3">Hello</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="get-started" class="container">
+            <div class="row">
+                <div class="col-lg-6 p-5">
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua.</p>
+                    <ul>
+                        <li>
+                            <i class="fas fa-check-double text-warning"></i>
+                            <p class="d-inline">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-double text-warning"></i>
+                            <p class="d-inline">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-double text-warning"></i>
+                            <p class="d-inline">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </li>
+                    </ul>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident</p>
+                </div>
+                <div class="col-lg-6 p-5">
+                    <img src="image/about.jpg" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container p-5 d-flex flex-wrap justify-content-around align-items-center brands">
+            <img src="image/clients/client-1.png" class="m-2" alt="">
+            <img src="image/clients/client-2.png" class="m-2" alt="">
+            <img src="image/clients/client-3.png" class="m-2" alt="">
+            <img src="image/clients/client-4.png" class="m-2" alt="">
+            <img src="image/clients/client-5.png" class="m-2" alt="">
+            <img src="image/clients/client-6.png" class="m-2" alt="">
+            <img src="image/clients/client-7.png" class="m-2" alt="">
+            <img src="image/clients/client-8.png" class="m-2" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-5">
+                    <img src="image/features.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <div class="feature-box d-flex">
+                        <div class="feature-logo">
+                            <i class="fas fa-ad text-warning pe-3"></i>
+                        </div>
+                        <div class="feature-text mb-2">
+                            <h4 class="fw-bold">Est labore ad</h4>
+                            <p class="text-secondary">Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                                laboris nisi ut aliquip</p>
+                        </div>
+                    </div>
+                    <div class="feature-box d-flex">
+                        <div class="feature-logo">
+                            <i class="fas fa-align-right text-warning pe-3"></i>
+                        </div>
+                        <div class="feature-text mb-2">
+                            <h4 class="fw-bold">Harum esse qui</h4>
+                            <p class="text-secondary">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt</p>
+                        </div>
+                    </div>
+                    <div class="feature-box d-flex">
+                        <div class="feature-logo">
+                            <i class="fab fa-artstation text-warning pe-3"></i>
+                        </div>
+                        <div class="feature-text mb-2">
+                            <h4 class="fw-bold">Aut occaecati</h4>
+                            <p class="text-secondary">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores
+                                omnis facere</p>
+                        </div>
+                    </div>
+                    <div class="feature-box d-flex">
+                        <div class="feature-logo">
+                            <i class="fab fa-battle-net text-warning pe-3"></i>
+                        </div>
+                        <div class="feature-text mb-2">
+                            <h4 class="fw-bold">Beatae veritatis</h4>
+                            <p class="text-secondary">Expedita veritatis consequuntur nihil tempore laudantium vitae
+                                denat pacta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services" class="container">
+            <p class="">SERVICES</p>
+            <h2 class="pb-4">CHECK OUR SERVICES</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 services-box">
+                    <div
+                        class="m-2 p-4 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary rounded">
+                        <i class="fab fa-battle-net p-3 services-logo bg-warning rounded"></i>
+                        <h3 class="pb-3">Lorem Ipsum</h3>
+                        <p class="text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 services-box">
+                    <div
+                        class="m-2 p-4 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary rounded">
+                        <i class="fab fa-battle-net p-3 services-logo bg-warning rounded"></i>
+                        <h3 class="pb-3">Lorem Ipsum</h3>
+                        <p class="text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 services-box">
+                    <div
+                        class="m-2 p-4 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary rounded">
+                        <i class="fab fa-battle-net p-3 services-logo bg-warning rounded"></i>
+                        <h3 class="pb-3">Lorem Ipsum</h3>
+                        <p class="text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 services-box">
+                    <div
+                        class="m-2 p-4 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary rounded">
+                        <i class="fab fa-battle-net p-3 services-logo bg-warning rounded"></i>
+                        <h3 class="pb-3">Lorem Ipsum</h3>
+                        <p class="text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 services-box">
+                    <div
+                        class="m-2 p-4 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary rounded">
+                        <i class="fab fa-battle-net p-3 services-logo bg-warning rounded"></i>
+                        <h3 class="pb-3">Lorem Ipsum</h3>
+                        <p class="text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 services-box">
+                    <div
+                        class="m-2 p-4 d-flex flex-column justify-content-center align-items-center border border-1 border-secondary rounded">
+                        <i class="fab fa-battle-net p-3 services-logo bg-warning rounded"></i>
+                        <h3 class="pb-3">Lorem Ipsum</h3>
+                        <p class="text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="container-fluid cta d-flex flex-column align-items-center justify-content-center p-5 text-white my-4">
+            <h2>Call to action</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            <button class="btn btn-secondary">Call to action</button>
+        </div>
+        <div id="portfolio" class="gallery container">
+            <p class="text-secondary">PORTFOLIO</p>
+            <h2 class="py-3">CHECK OUR PORTFOLIO</h2>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Contact</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active gallery-block" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+                    <img src="image/portfolio/portfolio-1.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-2.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-3.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-4.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-5.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-6.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-7.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-8.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-9.jpg" class="gallery-img" alt="">
+                </div>
+                <div class="tab-pane fade gallery-block" id="pills-profile" role="tabpanel"
+                    aria-labelledby="pills-profile-tab">
+                    <img src="image/portfolio/portfolio-2.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-3.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-4.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-6.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-7.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-8.jpg" class="gallery-img" alt="">
+                </div>
+                <div class="tab-pane fade gallery-block" id="pills-contact" role="tabpanel"
+                    aria-labelledby="pills-contact-tab">
+                    <img src="image/portfolio/portfolio-5.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-3.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-6.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-2.jpg" class="gallery-img" alt="">
+                    <img src="image/portfolio/portfolio-9.jpg" class="gallery-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-5">
+                    <img src="image/counts-img.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <h2>Voluptatem dignissimos provident quasi</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    <div class="d-flex justify-content-center align-items-center count-box">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="icon"><i class="far fa-grin-alt text-warning"></i></div>
+                            <div class="text">
+                                <h4>65</h4>
+                                <p><span class="fw-bold">Happy Clients</span> consequuntur voluptas nostrum aliquid
+                                    ipsam
+                                    architecto ut.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="icon"><i class="fas fa-atlas text-warning"></i></div>
+                            <div class="text">
+                                <h4>85</h4>
+                                <p><span class="fw-bold">Projects</span> adipisci atque cum quia aspernatur totam
+                                    laudantium et quia dere tan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center count-box">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="icon"><i class="far fa-clock text-warning"></i></div>
+                            <div class="text">
+                                <h4>35</h4>
+                                <p><span class="fw-bold">Years of experience</span> aut commodi quaerat modi aliquam nam
+                                    ducimus aut voluptate non vel
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="icon"><i class="fas fa-award text-warning"></i></div>
+                            <div class="text">
+                                <h4>20</h4>
+                                <p><span class="fw-bold">Awards</span> rerum asperiores dolor alias quo reprehenderit
+                                    eum et nemo pad der</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner slider-body">
+                <div class="carousel-item active">
+                    <div class="review-box d-flex flex-column justify-content-center align-items-center w-100">
+                        <img src="image/testimonials/testimonials-1.jpg" alt="">
+                        <h4 class="text-white">Harry</h4>
+                        <p class="text-white">Freelancer</p>
+                        <p class="font-italic text-white p-3">&laquo;Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Neque
+                            aliquid, animi labore qui quam tenetur provident deserunt dolore enim est! &raquo;</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review-box d-flex flex-column justify-content-center align-items-center w-100">
+                        <img src="image/testimonials/testimonials-2.jpg" alt="">
+                        <h4 class="text-white">Merry</h4>
+                        <p class="text-white">Enterprenour</p>
+                        <p class="font-italic text-white p-3">&laquo;Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Neque
+                            aliquid, animi labore qui quam tenetur provident deserunt dolore enim est! &raquo;</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review-box d-flex flex-column justify-content-center align-items-center w-100">
+                        <img src="image/testimonials/testimonials-3.jpg" alt="">
+                        <h4 class="text-white">Zarin</h4>
+                        <p class="text-white">Job hoolder</p>
+                        <p class="font-italic text-white p-3">&laquo;Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Neque
+                            aliquid, animi labore qui quam tenetur provident deserunt dolore enim est! &raquo;</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <p class="text-secondary p-3">TEAM</p>
+            <h2 class="pb-4">CHECK OUR TEAM</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="m-2 rounded rounded-1 shadow-lg p-2">
+                        <img src="image/team/team-1.jpg" class="w-100" alt="">
+                        <h4>Walter White</h4>
+                        <p class="text-secondary">Chief Executive Officer</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="m-2 rounded rounded-1 shadow-lg p-2">
+                        <img src="image/team/team-2.jpg" class="w-100" alt="">
+                        <h4>Sarah Jhonson</h4>
+                        <p class="text-secondary">Product manager</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="m-2 rounded rounded-1 shadow-lg p-2">
+                        <img src="image/team/team-3.jpg" class="w-100" alt="">
+                        <h4>William Anderson</h4>
+                        <p class="text-secondary">CEO</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="m-2 rounded rounded-1 shadow-lg p-2">
+                        <img src="image/team/team-4.jpg" class="w-100" alt="">
+                        <h4>Amanda Jepson</h4>
+                        <p class="text-secondary">Accountant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="container">
+            <p class="text-secondary">CONTACT</p>
+            <h2 class="py-3">CONTACT US</h2>
+            <div class="row p-5">
+                <div class="col-lg-4">
+                    <div class="d-flex mb-3">
+                        <i class="fas fa-map-marker-alt text-secondary p-3 bg-warning fs-2 rounded"></i>
+                        <div class="ps-3">
+                            <h4>Location:</h4>
+                            <p class="text-secondary">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <i class="fas fa-envelope text-secondary p-3 bg-warning fs-2 rounded"></i>
+                        <div class="ps-3">
+                            <h4>Email:</h4>
+                            <p class="text-secondary">email@info.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <i class="fas fa-mobile-alt text-secondary p-3 bg-warning fs-2 rounded"></i>
+                        <div class="ps-3">
+                            <h4>Call:</h4>
+                            <p class="text-secondary">+90 345 645 756</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="d-flex justify-content-around m-2">
+                        <input type="text" name="" id="firstName" placeholder="First name" class="form-control me-2">
+                        <input type="text" name="" id="lastName" placeholder="Last name" class="form-control ms-2">
+                    </div>
+                    <input type="text" name="" id="subject" placeholder="Subject" class="form-control m-2">
+                    <textarea name="" id="textarea" cols="30" rows="6" class="form-control m-2"
+                        placeholder="Your message"></textarea>
+                    <button class="btn btn-warning m-2 fw-bold">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid text-white">
+        <div class="footer-links row p-5">
+            <div class="col-lg-3 col-md-6">
+                <h2>Site</h2>
+                <p>A108 Adam Street</p>
+                <p class="mb-4">NY 535022, USA</p>
+                <p><span class="fw-bold">Phone: </span>+1 5589 55488 55</p>
+                <p class="mb-3"><span class="fw-bold">Email: </span>info@email.com</p>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h3>Usefull links</h3>
+                <ul>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>Home</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>About
+                            us</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i
+                                class="fas fa-chevron-right text-warning me-2"></i>Services</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>Terms of
+                            service</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i
+                                class="fas fa-chevron-right text-warning me-2"></i>Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h3>Our services</h3>
+                <ul>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>Web
+                            design</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>Web
+                            development</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>SEO</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i
+                                class="fas fa-chevron-right text-warning me-2"></i>Maintainance</a>
+                    </li>
+                    <li><a href="#" class="text-white"><i class="fas fa-chevron-right text-warning me-2"></i>Digital
+                            Marketing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <h3>Our newsletter</h3>
+                <p class="my-2">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <div class="input-group py-4">
+                    <input type="text" class="form-control" placeholder="Enter your email"
+                        aria-label="Input group example" aria-describedby="btnGroupAddon">
+                    <div class="input-group-text bg-warning" id="btnGroupAddon">Subscribe</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy p-4 text-white text-center row">
+            <p>&copy; Copywrite Site. All right reserved</p>
+            <p>Designed By <a href="https://bootstrapmade.com/" class="text-warning">Bootstrap made</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <!-- Raw JavaScript -->
+</body>
+
+</html>
